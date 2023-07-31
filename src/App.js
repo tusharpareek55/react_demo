@@ -1,12 +1,13 @@
-import { Header } from './Header';
+// import { Header } from './Header';
+import { Counter } from './Counter';
 import './App.css';
-import { Body } from './body';
+// import { Body } from './body';
+
 
 function App() {
   return (
     <div>
-    <Header />
-    <Body />
+      <Counter />
     </div>
   );
 }
